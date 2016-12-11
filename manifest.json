@@ -1,0 +1,16 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "description": "dopcode Workspace",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo7nKCbKg8QQg+/XIeHrRckpPh1zX0ef2siutW7hkwvhV0HKmeLYHtOl40CUBXukWdLNEGS5T3UMziRF1Ntwl4aPBHnQUt5p4ZObkBp9NtvP0WGS99TEcImNnzLTluFiPJiiALTjuAshjpCCWszW0KGgAA3UCwMszWAEof3/SFmtfyvr7lN68raZt6HTQMgiXhywiyaE3HY24+DbYswmI1emHtgCyVilSuLjjFXBbAuR122VqRvpevP+QhxInN8eTv8NeD0A60hRZNNktZ7cX9hdYk/1A/z3npowxMCWdFgSLh/smDcKWbU5nQl6ebGxwvmTnUSM0sgYCZmOkhyU0xwIDAQAB",
+   "manifest_version": 2,
+   "name": "dopcode Workspace",
+       "options_ui": {
+        "chrome_style": true,
+        "page": "options.html"
+    },
+   "permissions": [ "contextMenus", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.4"
+}
