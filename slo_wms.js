@@ -30,7 +30,7 @@ function redirect(id, pw) {
     form.submit();
 }
 
-function goHome(id, pw) {
+function goHome() {
 
     var method = method || "post";
     var form = document.createElement("form");

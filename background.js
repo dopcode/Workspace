@@ -14,7 +14,7 @@ var MENU_ID_ECM = "ECM";
 
 var URL_CALENDAR = "http://calendar.google.com/";
 var URL_MAIL = "http://mail.google.com/";
-var URL_REDMINE = "http://snow.cyberdigm.co.kr/redmine";
+var URL_REDMINE = "http://snow.cyberdigm.co.kr/redmine/projects/59_12--cloudium-----/issues?query_id=387";
 var URL_TASKIT = "http://taskit.cyberdigm.co.kr/";
 var URL_WMS = "http://destiny.cyberdigm.co.kr/wms/jsp/cyberdigm/webclient/wms/login/WMSLogin.jsp";
 var URL_ECM = "https://destiny.cyberdigm.co.kr/one";
@@ -46,6 +46,8 @@ chrome.contextMenus.create({
 
 chrome.tabs.onCreated.addListener(function(tab) {
 
+    console.debug(tab.url);
+    
     switch (tab.url) {
     case URL_CALENDAR:
         TAB_ID_CALENDAR = tab.id;
@@ -100,7 +102,7 @@ chrome.contextMenus.onClicked.addListener(function(info, tab) {
 
     switch (info.menuItemId) {
     case MENU_ID_CALENDAR:
-        activateTab(TAB_ID_CANLENDAR, URL_CALENDAR);
+        activateTab(TAB_ID_CALENDAR, URL_CALENDAR);
         break;
     case MENU_ID_MAIL:
         activateTab(TAB_ID_MAIL, URL_MAIL);
