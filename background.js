@@ -1,4 +1,3 @@
-// master
 var TAB_ID_CALENDAR = 0;
 var TAB_ID_MAIL = 0;
 var TAB_ID_REDMINE = 0;
