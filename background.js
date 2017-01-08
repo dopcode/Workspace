@@ -46,8 +46,6 @@ chrome.contextMenus.create({
 
 chrome.tabs.onCreated.addListener(function(tab) {
 
-    console.debug(tab.url);
-    
     switch (tab.url) {
     case URL_CALENDAR:
         TAB_ID_CALENDAR = tab.id;
