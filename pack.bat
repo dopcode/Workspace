@@ -1,3 +1,3 @@
 cd ..\
-del Workspace.zip
-zip -r Workspace.zip Workspace
+del dopcode-workspace.zip
+zip -r dopcode-workspace.zip dopcode-workspace
