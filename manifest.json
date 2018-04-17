@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 	"background": {
 		"scripts": [
@@ -26,3 +27,33 @@
 	"update_url": "https://clients2.google.com/service/update2/crx",
 	"version": "0.0.12"
 }
+=======
+{
+	"background": {
+		"scripts": [
+			"background.js"
+		]
+	},
+	"description": "dopcode Workspace",
+	"icons": {
+		"128": "icons/icon-128.png",
+		"16": "icons/icon-16.png",
+		"48": "icons/icon-48.png"
+	},
+	"key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo7nKCbKg8QQg+/XIeHrRckpPh1zX0ef2siutW7hkwvhV0HKmeLYHtOl40CUBXukWdLNEGS5T3UMziRF1Ntwl4aPBHnQUt5p4ZObkBp9NtvP0WGS99TEcImNnzLTluFiPJiiALTjuAshjpCCWszW0KGgAA3UCwMszWAEof3/SFmtfyvr7lN68raZt6HTQMgiXhywiyaE3HY24+DbYswmI1emHtgCyVilSuLjjFXBbAuR122VqRvpevP+QhxInN8eTv8NeD0A60hRZNNktZ7cX9hdYk/1A/z3npowxMCWdFgSLh/smDcKWbU5nQl6ebGxwvmTnUSM0sgYCZmOkhyU0xwIDAQAB",
+	"manifest_version": 2,
+	"name": "dopcode Workspace",
+	"options_ui": {
+		"chrome_style": true,
+		"page": "options.html"
+	},
+	"permissions": [
+		"contextMenus",
+		"tabs",
+		"storage",
+		"http://destiny.cyberdigm.co.kr/wms"
+	],
+	"update_url": "https://clients2.google.com/service/update2/crx",
+	"version": "0.0.13"
+}
+>>>>>>> refs/remotes/origin/master
